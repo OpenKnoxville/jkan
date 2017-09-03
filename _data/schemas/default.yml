@@ -41,6 +41,7 @@ resource_fields:
     form_template: form/dropdown.html
     values:
       - api
+      - arcgis
       - csv
       - json
       - geojson
@@ -49,6 +50,10 @@ resource_fields:
       - kmz
       - shp
       - xml
+  - field_name: spatial
+    label: Spatial Data
+    form_template: form/checkbox.html
+
 
 organization_fields:
   - field_name: title
