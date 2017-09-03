@@ -1,0 +1,47 @@
+<h4 class="media-heading"><a href="{{ request.link }}" target="_blank">{{ request.title }}</a></h4>
+<p>{{ request.description }}</p>
+<div class="row">
+    <div class="col-md-3">
+        <strong>Requested</strong>
+        {% case request.requested %}
+        {% when 'complete' %}
+            {% include status/complete.html %}
+        {% when 'inprogress' %}
+            {% include status/inprogress.html %}
+        {% when 'notyet' %}
+            {% include status/notyet.html %}
+        {% else %}
+            {% include status/unknown.html %}
+        {% endcase %}
+    </div>
+    <div class="col-md-3">
+        <strong>Published</strong>
+        {% case request.published %}
+        {% when 'complete' %}
+            {% include status/complete.html %}
+        {% when 'inprogress' %}
+            {% include status/inprogress.html %}
+        {% when 'notyet' %}
+            {% include status/notyet.html %}
+        {% else %}
+            {% include status/unknown.html %}
+        {% endcase %}
+    </div>
+    <div class="col-md-3">
+        <strong>Machine Readable</strong>
+        {% case request.machinereadable %}
+        {% when 'complete' %}
+            {% include status/complete.html %}
+        {% when 'inprogress' %}
+            {% include status/inprogress.html %}
+        {% when 'notyet' %}
+            {% include status/notyet.html %}
+        {% else %}
+            {% include status/unknown.html %}
+        {% endcase %}
+    </div>
+</div>
+
+<p>{{ notes }}</p>
+
+

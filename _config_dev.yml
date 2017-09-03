@@ -1,0 +1,6 @@
+
+
+# Google Analytics
+google_analytics:
+  enabled: false
+  code: "UA-XXXXXXX-1"
