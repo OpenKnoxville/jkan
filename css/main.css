@@ -98,3 +98,10 @@ dataset {
 .theme-gallery .panel-primary {
   border-width: 5px;
 }
+
+.site-logo {
+  height:30px;
+  width:30px;
+  display:inline !important;
+  margin-right:5px;
+}

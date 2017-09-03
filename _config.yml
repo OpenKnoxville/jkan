@@ -1,8 +1,8 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
-baseurl: /jkan
-logo: /img/jkan.png
+title: OpenKnoxville
+greeting: Welcome to OpenKnoxville
+description: The easy hub to find open data for Knoxville, Tennessee
+baseurl: 
+logo: /img/ok-logo.png
 
 # Site theme
 theme: Default
@@ -52,8 +52,8 @@ kramdown:
 
 # Google Analytics
 google_analytics:
-  enabled: false
-  code: "UA-XXXXXX-1"
+  enabled: true
+  code: "UA-105790827-1"
 
 # US Digital Analytics Program - https://analytics.usa.gov
 digital_analytics_program:
