@@ -63,6 +63,14 @@ organization_fields:
   - field_name: logo
     label: Logo
 
+request_fields:
+  - field_name: title
+    label: Title
+  - field_name: description
+    label: Description
+  - field_name: requested
+    label: Requested
+
 category_fields:
   - field_name: name
     label: Name

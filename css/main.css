@@ -105,3 +105,49 @@ dataset {
   display:inline !important;
   margin-right:5px;
 }
+
+.green {
+  border-color: #00A201;
+    background: #c9fa9f;
+}
+.yellow{
+      border-color: #9da10b;
+    background: #f7f898;
+}
+
+.red{
+      border-color: #bc1109;
+    background: #fccbc9;
+}
+
+.score {
+  padding: 5px;
+    margin-left:20px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    border-width: 0;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1 1 0px;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+}

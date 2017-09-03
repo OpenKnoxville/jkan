@@ -16,6 +16,8 @@ schema: default
 
 # Nav bar
 navigation:
+  - title: Requests
+    url: /requests/
   - title: Datasets
     url: /datasets/
   - title: Organizations
@@ -23,6 +25,8 @@ navigation:
 
 # Collections
 collections:
+  requests:
+    output: false
   datasets:
     output: true
     permalink: /datasets/:path/
