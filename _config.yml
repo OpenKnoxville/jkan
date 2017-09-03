@@ -5,7 +5,7 @@ baseurl:
 logo: /img/ok-logo.png
 
 # Site theme
-theme: Journal
+theme: jekyll-theme-merlot
 
 # Authentication
 github_client_id: 
