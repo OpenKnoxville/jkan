@@ -12,9 +12,35 @@ layout: default
 
 <div class="jumbotron">
   <h1>Our Progress</h1>
-  <p>
-  Insert the graphic here
-  </p>
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <h4>Number of Datasets</h4>
+      <h3>{{ site.datasets.size }}</h3>
+    </div>
+    <div class="col-md-4 text-center">
+      <h4>Number of Requests</h4>
+      <h3>{{ site.requests.size }}</h3>
+    </div>
+    <div class="col-md-4 text-center">
+      <h4>Number of Organizations</h4>
+      <h3>{{ site.organizations.size }}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <h4>Percent of APIs</h4>
+      <h3>To Do</h3>
+    </div>
+    <div class="col-md-4 text-center">
+      <h4>Percent of Spatial Data</h4>
+      <h3>To Do</h3>
+    </div>
+  </div>
+  <div class="row">
+     <div class="col-md-8 text-center">
+       <img style="width:100%" src="/img/example_viz.png">
+     </div>
+  </div>
 </div>
 
 <h3>Browse by Category</h3>
